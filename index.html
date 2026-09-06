@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Batista — 17 歲，自學資安、嵌入式系統與自動化。" />
+  <title>Batista | Developer</title>
+  <link rel="icon" type="image/png" href="assets/favicon-minion.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="final-polish.css" />
+</head>
+<body>
+  <div class="noise"></div><div class="cursor-glow"></div><div class="grid"></div>
+  <header class="nav wrap">
+    <button class="menu-toggle" aria-label="開啟選單" aria-expanded="false"><i></i><i></i></button>
+    <nav><a href="#about" data-i18n="navAbout">關於我</a><a href="#skills" data-i18n="navSkills">探索領域</a><a href="#now" data-i18n="navNow">現在進行式</a><a class="nav-cta" href="wloc.html"><span data-i18n="navGuide">WLOC 教學</span> <span>↗</span></a><button class="lang-switch" type="button" aria-label="Switch language">EN</button></nav>
+  </header>
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse"></span> AVAILABLE TO LEARN &amp; BUILD</p>
+        <h1 data-i18n-html="heroTitle">我把好奇心<br />做成<span>現實。</span></h1>
+        <p class="lede" data-i18n-html="heroLead">嗨，我是 Batista，一位 17 歲的高職資訊科學生。<br />從數位安全到機械手臂，我熱衷理解系統，然後讓它動起來。</p>
+        <div class="hero-actions"><a class="button primary" href="#about"><span data-i18n="meet">認識我</span> <span>↓</span></a><a class="button text-button" href="wloc.html"><span data-i18n="viewGuide">查看 WLOC 教學</span> <span>↗</span></a></div>
+      </div>
+      <div class="hero-visual reveal delay-2" aria-label="抽象科技裝置圖像">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="core"><div class="core-ring r1"></div><div class="core-ring r2"></div><div class="core-ring r3"></div><img src="assets/batista-avatar.png" alt="Batista 的頭貼" /></div>
+        <div class="data-card card-a"><small>SYSTEM</small><strong>ONLINE</strong><em></em></div>
+        <div class="data-card card-b"><small>LEARNING</small><strong>EVERY DAY</strong><div class="mini-bars"><b></b><b></b><b></b><b></b></div></div>
+        <div class="coordinate">25° 02' N&nbsp;&nbsp;121° 34' E</div>
+      </div>
+      <div class="scroll-note">SCROLL TO EXPLORE <span></span></div>
+    </section>
+    <section id="about" class="about wrap section">
+      <div class="section-label reveal"><span>01</span> ABOUT ME</div>
+      <div class="about-content">
+        <h2 class="reveal" data-i18n-html="aboutTitle">不只是學習，<br />而是<span>不停地拆解與重組。</span></h2>
+        <div class="about-text reveal delay-1"><p data-i18n="aboutP1">我是高職資訊科學生，也是一位喜歡把問題拆開、親手做出答案的自學者。無論是研究一段程式、調校一台裝置，還是追蹤系統裡的一個漏洞，每個「為什麼」都值得被好好追到底。</p><p data-i18n="aboutP2">現在的我仍在探索，也正享受這段沒有標準答案的旅程。</p><div class="student-badge"><span>STUDENT</span><b data-i18n="badge">資訊科 · 自學者 · 創作者</b></div><a class="inline-link" href="#skills"><span data-i18n="explore">看看我正在探索什麼</span> <span>→</span></a></div>
+      </div>
+    </section>
+    <section id="skills" class="skills section">
+      <div class="wrap"><div class="section-label reveal"><span>02</span> FIELDS OF INTEREST</div><div class="skills-heading"><h2 class="reveal" data-i18n-html="skillsTitle">我正在建構的<br /><span>技能宇宙。</span></h2><p class="reveal delay-1" data-i18n-html="skillsLead">每一個領域都像一扇門，<br />通往更多值得解決的問題。</p></div>
+      <div class="skill-grid">
+        <article class="skill-card reveal"><div class="skill-number">01</div><div class="skill-icon shield">◇</div><h3>資安</h3><p>探索網路世界的攻防邏輯，理解如何讓系統更可靠、更安全。</p><span class="card-line"></span></article>
+        <article class="skill-card featured reveal delay-1"><div class="skill-number">02</div><div class="skill-icon chip">▣</div><h3>嵌入式系統</h3><p>在有限的硬體資源裡，寫出能與真實世界對話的程式。</p><span class="card-line"></span></article>
+        <article class="skill-card reveal delay-2"><div class="skill-number">03</div><div class="skill-icon auto">↻</div><h3>自動化</h3><p>把重複的事交給系統，為更有價值的創造保留時間。</p><span class="card-line"></span></article>
+        <article class="skill-card reveal"><div class="skill-number">04</div><div class="skill-icon arm">⌘</div><h3>機械手臂</h3><p>從程式控制到物理運動，讓精準的指令真正落地執行。</p><span class="card-line"></span></article>
+        <article class="skill-card reveal delay-1"><div class="skill-number">05</div><div class="skill-icon app">▤</div><h3>桌面應用開發</h3><p>做出直覺、好用的工具，把複雜的流程變成簡單的介面。</p><span class="card-line"></span></article>
+      </div></div>
+    </section>
+    <section class="stack wrap section">
+      <div class="section-label reveal"><span>03</span> TECHNICAL PROFILE</div>
+      <div class="stack-intro reveal"><h2>在軟體與現場之間，<br><span>讓指令成為動作。</span></h2><p>從桌面應用到 ROS 2 與工業機械手臂，我專注於把軟體邏輯帶進真實世界。</p></div>
+      <div class="stack-layout">
+        <div class="proficiency reveal"><p class="stack-caption">LANGUAGES &amp; PLATFORMS</p><div class="meter"><div><span>C#</span><b>78%</b></div><i><em style="--level:78%"></em></i></div><div class="meter"><div><span>C++</span><b>68%</b></div><i><em style="--level:68%"></em></i></div><div class="meter"><div><span>Python</span><b>82%</b></div><i><em style="--level:82%"></em></i></div><div class="meter"><div><span>ROS 2</span><b>60%</b></div><i><em style="--level:60%"></em></i></div></div>
+        <div class="robot-experience reveal delay-1"><p class="stack-caption">ROBOTICS EXPERIENCE</p><h3>Industrial arms I know</h3><div class="robot-tags"><span>FANUC<br><small>發那科</small></span><span>TM ROBOT<br><small>達明</small></span><span>HIWIN<br><small>上銀</small></span></div><p class="robot-note">控制邏輯、路徑規劃、現場自動化與跨系統整合。</p></div>
+      </div>
+    </section>
+    <section id="now" class="now wrap section"><div class="section-label reveal"><span>04</span> CURRENTLY</div><div class="terminal reveal"><div class="terminal-bar"><span></span><span></span><span></span><p>batista@lab:~</p></div><div class="terminal-body"><p><b>❯</b> status <i>--current</i></p><p class="output">探索、實作、修正，然後再試一次。</p><p><b>❯</b> next_step <span class="typing">_</span></p></div></div><div class="now-copy reveal delay-1"><p class="eyebrow">THE NEXT BUILD IS ALWAYS LOADING</p><h2>把今天的練習，<br />變成明天的作品。</h2><a href="wloc.html" class="button primary">探索 WLOC 指南 <span>→</span></a></div></section>
+  </main>
+  <footer class="wrap"><p>BATISTA / DIGITAL BUILDER</p><span>CURIOUS BY NATURE. BUILDING BY CHOICE.</span><small>© 2026</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
